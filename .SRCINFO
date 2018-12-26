@@ -1,0 +1,18 @@
+pkgbase = xremap-git
+	pkgdesc = Dynamic key remapper for X Window System
+	pkgver = 0.0.3.r35.gcaea9a1
+	pkgrel = 1
+	url = https://github.com/k0kubun/xremap
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = bison
+	depends = libx11
+	depends = ruby
+	provides = xremap
+	conflicts = xremap
+	source = git://github.com/k0kubun/xremap
+	md5sums = SKIP
+
+pkgname = xremap-git
+
